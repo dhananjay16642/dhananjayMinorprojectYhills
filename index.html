@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TODO Task Manager</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css">
+  
+</head>
+<body>
+
+<section class="vh-100 gradient-custom-2"  id="bg" >
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col col-xl-10">
+
+        <div class="card" style="border-radius: 15px;">
+          <div class="card-body p-5">
+
+            <h2 class="mb-3 todo">TODO Task Manager</h2>
+
+            <form class="d-flex justify-content-center align-items-center mb-4">
+              <div class="form-outline flex-fill" id="myDIV">
+                <input type="text" id="myInput" class="form-control form-control-lg" autocomplete="off" />
+              </div>
+              <span onclick="newElement()" class="btn btn-primary btn-lg ms-2 gradient-box">Add</span>
+            </form>
+            <h6>Personalise Your Tasks</h6>
+            <ul id="myUL">
+              <!-- <li>classes</li>
+              <li>projects</li> -->
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<script src="main.js"></script>
+</body>
+</html>
